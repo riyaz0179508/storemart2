@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="store.example.stormart2">
+    <uses-permission android:name="android.permission.INTERNET" />
+
    <application
-        android:label="stormart2"
+        android:label="Stormart"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
